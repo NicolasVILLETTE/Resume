@@ -1,0 +1,165 @@
+video#bgvid { /*creation d'un nouveau style pour la video de backround */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100; /*au dernier plan de la page */
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(videocv.jpg) no-repeat;
+    background-size: cover;
+}
+A
+/*creation d'un nouveau style */
+
+{
+    font-size: 130%;
+    color: white;
+    font-family: 'Lato', cursive;
+}
+h1
+/*changement de police,couleur ,taille de la balise h1*/
+
+{
+    font-size: 150%;
+    color: white;
+    font-family: 'Lato', cursive;
+}
+h2
+/*changement de la police,couleur,taille de la balise h2 */
+
+{
+    font-size: 100%;
+    color: white;
+    font-family: 'Lato', cursive;
+}
+h3
+/*changement de police,couleur ,taille de la balise h1*/
+
+{
+    font-size: 100%;
+    color: white;
+    font-family: 'Lato', cursive;
+}
+body
+/*changement de la police,couleur,taille de la balise h2 */
+
+{
+    font-size: 100%;
+    color: white;
+    font-family: 'Lato', cursive;
+}
+div.border {
+    max-width: 300px;
+    margin: auto;
+    border: 3px solid white;
+    text-align: center
+}
+
+.alignleft { /*creation d'une balise d'alignement a gauche */
+    float: left;
+}
+.alignright { /*creation d'une balise d'alignement a droite */
+    float: right;
+}
+.barre {
+    width: 300px;
+    border: 2px white;
+    position: relative;
+    height: 10px;
+}
+.barre:after {
+    content: "";
+    position: absolute; 
+    background: white; /*couleur de barre intérieure  */
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.barre[data-length="10"]:after { /*creation de plusieurs valeurs de taille de barre horizontale */
+    width: 10%
+}
+.barre[data-length="20"]:after {
+    width: 20%
+}
+.barre[data-length="30"]:after {
+    width: 30%
+}
+.barre[data-length="40"]:after {
+    width: 40%
+}
+.barre[data-length="50"]:after {
+    width: 50%
+}
+.barre[data-length="60"]:after {
+    width: 60%
+}
+.barre[data-length="70"]:after {
+    width: 70%
+}
+.barre[data-length="80"]:after {
+    width: 80%
+}
+.barre[data-length="90"]:after {
+    width: 90%
+}
+.barre[data-length="100"]:after {
+    width: 100%
+}
+
+/*creation de nouveaux éléments afin de se créer des outils et d'améliorer le coté visuel du CV */
+<style> header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+nav {
+    line-height: 30px;
+    background-color: lightgrey;
+    height: 200px;
+    width: 250px;
+    float: left;
+    padding: 5px;
+}
+section {
+    width: 950px;
+    float: left;
+    padding: 10px;
+}
+footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+</style>
+
+/*creation du style de la barre de navigation qui supporte nos onglets */ 
+#nav {
+    width: 100%;
+    float: left;
+    list-style: none;
+    background-color: black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#nav li {
+    float: left;
+}
+#nav li a {
+    background-color: black;
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    #nav li a:hover {
+        color: #c00;
+        background-color: #fff;
+    }
